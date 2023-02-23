@@ -1,0 +1,35 @@
+.ipynb_checkpoints
+
+# Geographic data files
+*.cpg
+*.CPG
+*.CTF
+*.dbf
+*.DBF
+*.gpkg
+*.gpkg-journal
+*.gpkg-shm
+*.gpkg-wal
+*.nc
+*.nc.aux.xml
+*.prj
+*.PRJ
+*.sbn
+*.sbx
+*.shp
+*.SHP
+*.shp.xml
+*.SHP.XML
+*.shx
+*.SHX
+*.tif
+*.tif.aux.xml
+
+# Data files
+*.bak
+*.csv
+*.docx
+*.ods
+*.parquet
+*.pdf
+*.xlsx
