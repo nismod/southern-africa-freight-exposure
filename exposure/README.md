@@ -1,5 +1,14 @@
 # Exposure analysis results
 
+This folder contains outputs from the network exposure analysis.
+
+The analysis is as follows:
+
+1. split each network link into pieces along the lines of the hazard raster
+   grids
+2. assign the cell value of each hazard raster to each piece of link
+3. filter out any zero or no-data exposure values
+
 The split link-level exposure results are in each of the CSV files:
 
 - `NO,FROMNODENO,TONODENO` columns are preserved from `Supply network_link.SHP`
