@@ -13,6 +13,18 @@ Major steps in the process here:
   the total network length exposed to each hazard under each scenario in each
   region)
 
+Requirements
+
+- Python >=3.8
+- Python packages: geopandas pyarrow python-igraph rasterio shapely jupyter notebook
+- GDAL command-line tools (gdal_translate, gdal_merge.py)
+- GNU parallel
+
+```bash
+# install snail with specific version (or v0.3 when released)
+pip install https://github.com/nismod/snail.git@148b861ac54595eceb2c83934d57b7d66fc3460b
+```
+
 ## Acknowledgments
 
 This project is done as part of the Climate Compatible Growth project, funded by

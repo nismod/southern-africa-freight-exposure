@@ -1,0 +1,51 @@
+# Extreme heat
+
+ERA5 Climatology
+- 0.5 degree grid netCDF, 1991-2020
+- days with heat index >35 degrees - where heat index is derived from temperature and specific humidity, most relevant for human experience of heat
+- number of hot days (Tmax > 35°C)
+- number of hot days (Tmax > 40°C)
+
+
+## Neumann 2021
+
+Neumann, J.E., Chinowsky, P., Helman, J. et al. Climate effects on US infrastructure: the economics of adaptation for rail, roads, and coastal development. Climatic Change 167, 44 (2021). https://doi.org/10.1007/s10584-021-03179-w
+
+### Rail temperature and likelihood of buckling
+
+from Supplemental Information on Rail Analysis Methods, Figure 2.1. Relationship of Buckling Probability to Air Temperature
+
+probability of buckling = 5.72484819653954E-10 exp(0.429053122918145 x)
+
+Approximately:
+
+pb,temp°C
+0.0,34
+0.1,44
+0.2,46
+0.5,48
+0.8,49
+1.0,49.5
+
+
+### Roads high temperature days and increased softness
+
+- "correlation between temperature increase and rutting"
+- "in a year in which the average temperature increases by 5% (a climate stressor measure that is consistent with the underlying literature), there will be an additional 0.04 inches (1.016mm) of rutting"
+- "IRI (international roughness index, smoothness in cm/km) = 57.56 x RD (rut depth, mm) − 334"
+- "one unit change in IRI leads to a 0.48-km/h change in free-flow speed"
+
+
+## Qiao 2013
+
+Qiao Y, Flintsch G, Dawson A, Parry T (2013) Examining effects of climatic factors on flexible pavement performance and service life. Transportation Research Record. Journal of the Transportation Research Board 2349:100–107. https://doi.org/10.3141/2349-12
+
+- 5% increase in Neumann 2021 above is taken from an average change of 2.63333°F i.e. 1.5°C (1.46298518518)
+
+
+## Hall 2009
+
+Hall, J. and K. Jenkins. n.d. Modeling the impacts of climate change on cities: economic costs of rail buckle events. Arcadia Factsheet 9. https://www.arcc-network.org.uk/wp-content/pdfs/ARCADIA-09-buckling.pdf Accessed 18 January 2023
+
+- "Theoretically, well maintained track should not be vulnerable to buckling up to ambient temperatures of ~39.3°C"
+- "the majority of severe events occur over 27°C in London and the South-East, suggesting that track is of poorer condition"

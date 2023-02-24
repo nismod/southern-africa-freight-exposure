@@ -1,0 +1,28 @@
+## Zones
+
+63+6 zones: 1-67 (except 16 18 25 34) and 100-105 (Antarctica, America, Asia, Oceania, Rest of Africa, Europe)
+
+Supply network_zone_centroid.shp: has centroids for all zones
+Supply network_zone.shp: has polygons for 1-67 (except 16 18 25 34) but not 100-105
+zones.csv: has number to name lookup
+od/current_mining.xlsx: uses all zones in OD matrices
+
+Covering 17 countries:
+
+AGO	Angola
+BDI	Burundi
+BWA	Botswana
+COD	Democratic Republic of the Congo
+COG	Republic of Congo
+KEN	Kenya
+LSO	Lesotho
+MOZ	Mozambique
+MWI	Malawi
+NAM	Namibia
+RWA	Rwanda
+SWZ	Swaziland
+TZA	Tanzania
+UGA	Uganda
+ZAF	South Africa
+ZMB	Zambia
+ZWE	Zimbabwe
