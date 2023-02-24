@@ -25,6 +25,11 @@ Requirements
 pip install https://github.com/nismod/snail.git@148b861ac54595eceb2c83934d57b7d66fc3460b
 ```
 
+## License
+
+This codebase is made available under the MIT License, copyright (c) 2023 Tom
+Russell and contributors. See [./LICENSE](./LICENSE) for details
+
 ## Acknowledgments
 
 This project is done as part of the Climate Compatible Growth project, funded by
