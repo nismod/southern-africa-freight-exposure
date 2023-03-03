@@ -33,3 +33,7 @@
 *.parquet
 *.pdf
 *.xlsx
+*.json
+
+# QGIS project
+*.qgz
