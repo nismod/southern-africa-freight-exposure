@@ -72,3 +72,25 @@ NO,FROMNODENO,TONODENO,split,length_m,epoch,gcm,rp,cyclone
 - `rp` - return period, in years
 - `cyclone` - maximum wind speed in m/s, 10-minute average sustained wind speeds
   (U10)
+
+## `exposure/Supply network_link.\*.parquet
+
+These Parquet files contain the same data as above, in "wide" format with lots of columns.
+
+Each file contains the common columns:
+
+- 'NO', 'FROMNODENO', 'TONODENO', 'geometry', 'split'
+
+And additional data columns, named in a way that encodes all the hazard details.
+For example:
+
+- 'epoch:1995-2014|hazard:hd35|quantile:median|ssp:historical'
+- 'epoch:2040-2059|hazard:hd45|quantile:median|ssp:ssp245'
+
+## `exposure/Supply network_link.\*.splits.gpkg
+
+These GeoPackage files contain the only the "split" link data, in a common GIS format.
+
+Each file contains the common columns:
+
+- 'NO', 'FROMNODENO', 'TONODENO', 'split', 'geometry'
